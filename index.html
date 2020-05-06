@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<style>
+    body{
+        font-family: arial,sans-serif;
+        font-size: 13px;
+    }
+    img{
+        display: block;
+        margin: 100px auto 50px auto;
+    }
+    input{
+        display: block;
+        margin: auto; 
+        border-radius: 20px;
+        padding: 15px 150px 15px 150px;
+        border-width: 1px;
+        border-color:rgb(156, 154, 154)
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 5px 5px;
+        align-items: center;
+        width: 98%;
+        top: 0;
+    }
+    ul2{
+        list-style-type: none;
+        margin: 0;
+        padding: 0; 
+        position: fixed;
+        width: 98%;
+        bottom: 0;
+        display: block;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+    }
+    li{
+        float: left;
+        padding: 5px;
+    }
+
+    .wrap {
+  display: flex;
+  justify-content:center;
+    }
+  .grey-button {
+      background-color: rgb(238, 234, 234);
+      border: 2px 2px 2px 2px;
+      color:rgb(95, 92, 92);
+      text-align: center;
+      font-size: 15px;
+      padding: 10px 5px;
+      border-radius: 5px;
+      margin: 15px 10px 10px 10px;
+      outline:rgb(59, 152, 240);  
+  }
+  button:focus{ 
+    border-color: rgb(35, 90, 241);
+  }
+  button:hover{
+    color: black; 
+  }
+  li:hover{
+      text-decoration: underline;
+  }
+    .blue-button { 
+    background-color:rgb(59, 152, 240);
+  border: none;
+  color: white;
+  padding: 10px 5px;
+  text-decoration: none;
+ position: relative;
+ top: -10px;
+    }
+</style>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Google</title>
+    </head>
+    <header>
+        <ul>
+            <li>About</li>
+            <li>Store</li>
+            <li style="float:right"><button class="blue-button" type="sign in">Sign In</li>
+            <li style="float:right">Images</li>
+            <li style="float:right">Gmail</li>
+            </ul>
+        </header>
+    <body>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        <input type="text" required>
+       <div>
+        <p class="wrap">
+        <button class="grey-button" type="search">Google Search</button>
+        <button class="grey-button" type="feeling lucky">I'm Feeling Lucky</button>
+        </p>
+        </div>
+    </body>
+        <footer>
+        <ul2>
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>How Search Works</li>
+            <li style="float:right">Settings</li> 
+            <li style="float:right">Terms</li>
+            <li style="float:right">Privacy</li>
+        </ul2>
+        </footer>
+    
+    
+
+</html>
